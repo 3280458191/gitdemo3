@@ -15,6 +15,7 @@ public class M2 {
         while((s=br.readLine())!=null){
             list.add(s);
         }
+        br.close();
         while(true) {
             Collections.shuffle(list);
             for (int i = 0; i < list.size(); i++) {
